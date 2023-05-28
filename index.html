@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index_light.css" id="theme_link">
+    <title>My Site</title>
+</head>
+<body>
+    <div class="site_canvas">
+        <header>
+            <nav>
+                <div class="container_header">
+                    <div class="block_nav">
+                        <a href="#cat-1" class="menu_header">Категория 1</a>
+                        <a href="#cat-2" class="menu_header">Категория 2</a>
+                        <a href="#cat-3" class="menu_header">Категория 3</a>
+                    </div>
+                    <div class="block_theme">
+                        <button class="btn_theme" onclick="changeTheme()">Темная</button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <article>
+            <div class="container_category">
+                <div class="category_1">
+                    <a name="cat-1"></a>
+                    <h1>Категория 1</h1>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="img/1.jpg" alt="Категория 1, товар 1" class="image"/>
+                            <h4>Товар 1</h4>
+                            <div>
+                                Дата: <span id="dayInfo_0"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/2.jpg" alt="Категория 1, товар 2" class="image"/>
+                            <h4>Товар 2</h4>
+                            <div>
+                                Дата: <span id="dayInfo_1"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/3.jpg" alt="Категория 1, товар 3" class="image"/>
+                            <h4>Товар 3</h4>
+                            <div>
+                                Дата: <span id="dayInfo_2"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/4.jpg" alt="Категория 1, товар 4" class="image"/>
+                            <h4>Товар 4</h4>
+                            <div>
+                                Дата: <span id="dayInfo_3"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/5.jpg" alt="Категория 1, товар 5" class="image"/>
+                            <h4>Товар 5</h4>
+                            <div>
+                                Дата: <span id="dayInfo_4"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/6.jpg" alt="Категория 1, товар 6" class="image"/>
+                            <h4>Товар 6</h4>
+                            <div>
+                                Дата: <span id="dayInfo_5"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/7.jpg" alt="Категория 1, товар 7" class="image"/>
+                            <h4>Товар 7</h4>
+                            <div>
+                                Дата: <span id="dayInfo_6"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>                        
+                        <div class="card">
+                            <img src="img/8.jpg" alt="Категория 1, товар 8" class="image"/>
+                            <h4>Товар 8</h4>
+                            <div>
+                                Дата: <span id="dayInfo_7"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/9.jpg" alt="Категория 1, товар 9" class="image"/>
+                            <h4>Товар 9</h4>
+                            <div>
+                                Дата: <span id="dayInfo_8"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/10.jpg" alt="Категория 1, товар 10" class="image"/>
+                            <h4>Товар 10</h4>
+                            <div>
+                                Дата: <span id="dayInfo_9"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="category_2">
+                    <a name="cat-2"></a>
+                    <h1>Категория 2</h1>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="img/cat2/1.jpg" alt="Категория 2, товар 1" class="image"/>
+                            <h4>Товар 1</h4>
+                            <div>
+                                Дата: <span id="dayInfo_10"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat2/2.jpg" alt="Категория 2, товар 2" class="image"/>
+                            <h4>Товар 2</h4>
+                            <div>
+                                Дата: <span id="dayInfo_11"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat2/3.jpg" alt="Категория 2, товар 3" class="image"/>
+                            <h4>Товар 3</h4>
+                            <div>
+                                Дата: <span id="dayInfo_12"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat2/4.jpg" alt="Категория 2, товар 4" class="image"/>
+                            <h4>Товар 4</h4>
+                            <div>
+                                Дата: <span id="dayInfo_13"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat2/5.jpg" alt="Категория 2, товар 5" class="image"/>
+                            <h4>Товар 5</h4>
+                            <div>
+                                Дата: <span id="dayInfo_14"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat2/6.jpg" alt="Категория 2, товар 6" class="image"/>
+                            <h4>Товар 6</h4>
+                            <div>
+                                Дата: <span id="dayInfo_15"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat2/7.jpg" alt="Категория 2, товар 7" class="image"/>
+                            <h4>Товар 7</h4>
+                            <div>
+                                Дата: <span id="dayInfo_16"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>                        
+                        <div class="card">
+                            <img src="img/cat2/8.jpg" alt="Категория 2, товар 8" class="image"/>
+                            <h4>Товар 8</h4>
+                            <div>
+                                Дата: <span id="dayInfo_17"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat2/9.jpg" alt="Категория 2, товар 9" class="image"/>
+                            <h4>Товар 9</h4>
+                            <div>
+                                Дата: <span id="dayInfo_18"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat2/10.jpg" alt="Категория 2, товар 10" class="image"/>
+                            <h4>Товар 10</h4>
+                            <div>
+                                Дата: <span id="dayInfo_19"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat2/11.jpg" alt="Категория 2, товар 11" class="image"/>
+                            <h4>Товар 11</h4>
+                            <div>
+                                Дата: <span id="dayInfo_20"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat2/12.jpg" alt="Категория 2, товар 12" class="image"/>
+                            <h4>Товар 12</h4>
+                            <div>
+                                Дата: <span id="dayInfo_21"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="category_3">
+                    <a name="cat-3"></a>
+                    <h1>Категория 3</h1>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="img/cat3/1.jpg" alt="Категория 3, товар 1" class="image"/>
+                            <h4>Товар 1</h4>
+                            <div>
+                                Дата: <span id="dayInfo_22"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat3/2.jpg" alt="Категория 3, товар 2" class="image"/>
+                            <h4>Товар 2</h4>
+                            <div>
+                                Дата: <span id="dayInfo_23"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat3/3.jpg" alt="Категория 3, товар 3" class="image"/>
+                            <h4>Товар 3</h4>
+                            <div>
+                                Дата: <span id="dayInfo_24"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat3/4.jpg" alt="Категория 3, товар 4" class="image"/>
+                            <h4>Товар 4</h4>
+                            <div>
+                                Дата: <span id="dayInfo_25"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat3/5.jpg" alt="Категория 3, товар 5" class="image"/>
+                            <h4>Товар 5</h4>
+                            <div>
+                                Дата: <span id="dayInfo_26"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat3/6.jpg" alt="Категория 3, товар 6" class="image"/>
+                            <h4>Товар 6</h4>
+                            <div>
+                                Дата: <span id="dayInfo_27"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat3/7.jpg" alt="Категория 3, товар 7" class="image"/>
+                            <h4>Товар 7</h4>
+                            <div>
+                                Дата: <span id="dayInfo_28"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>                        
+                        <div class="card">
+                            <img src="img/cat3/8.jpg" alt="Категория 3, товар 8" class="image"/>
+                            <h4>Товар 8</h4>
+                            <div>
+                                Дата: <span id="dayInfo_29"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat3/9.jpg" alt="Категория 3, товар 9" class="image"/>
+                            <h4>Товар 9</h4>
+                            <div>
+                                Дата: <span id="dayInfo_30"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat3/10.jpg" alt="Категория 3, товар 10" class="image"/>
+                            <h4>Товар 10</h4>
+                            <div>
+                                Дата: <span id="dayInfo_31"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat3/11.jpg" alt="Категория 3, товар 11" class="image"/>
+                            <h4>Товар 11</h4>
+                            <div>
+                                Дата: <span id="dayInfo_32"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat3/12.jpg" alt="Категория 3, товар 12" class="image"/>
+                            <h4>Товар 12</h4>
+                            <div>
+                                Дата: <span id="dayInfo_33"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat3/13.jpg" alt="Категория 3, товар 13" class="image"/>
+                            <h4>Товар 13</h4>
+                            <div>
+                                Дата: <span id="dayInfo_34"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat3/14.jpg" alt="Категория 3, товар 14" class="image"/>
+                            <h4>Товар 14</h4>
+                            <div>
+                                Дата: <span id="dayInfo_35"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/cat3/15.jpg" alt="Категория 3, товар 15" class="image"/>
+                            <h4>Товар 15</h4>
+                            <div>
+                                Дата: <span id="dayInfo_36"></span>
+                            </div>
+                            <button onclick="openForm()" class="btn_buy">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-up btn-up_hide"></div>
+                <div id="myModal" class="modal"> 
+                    <div class="modal-content">
+                        <form action="#" class="form-container" id="form">
+                            <h1>Оформление</h1>
+                            <label><b>Количество</b></label>
+                            <input type="number" placeholder="Количество" name="count" min="1" required>
+                            <p><input name="color" type="radio" value="red"> Красный</p>
+                            <p><input name="color" type="radio" value="green"> Зеленый</p>
+                            <p><input name="color" type="radio" value="black"> Черный</p>
+                            <p><input name="color" type="radio" value="blue"> Синий</p>
+                            <label><b>Комментарий</b></label>
+                            <input type="text" placeholder="Комментарий" name="comment" maxlength="2000" required>
+                            <button type="button" class="btn" onclick="buyForm()">Купить</button>
+                            <button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+                          </form>
+                    </div>                  
+                </div>
+            </div>
+        </article>
+        <footer>
+            <ul>
+                <nav>
+                    <a href="#cat-1" class="menu_footer"><li>Категория 1</li></a>
+                    <a href="#cat-2" class="menu_footer"><li>Категория 2</li></a>
+                    <a href="#cat-3" class="menu_footer"><li>Категория 3</li></a>
+                </nav>
+            </ul>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
